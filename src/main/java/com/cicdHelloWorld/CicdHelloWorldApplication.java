@@ -26,6 +26,9 @@ public class CicdHelloWorldApplication {
 //    git remote add origin https://github.com/TShubhM/githubcicd-hello.git
 //    git push -u origin main
 
+//Command to remove warning LF will get replcaed by CRLF next time git touches it
+//    git config core.safecrlf false
+
     public static void main(String[] args) {
         SpringApplication.run(CicdHelloWorldApplication.class, args);
     }
